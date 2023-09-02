@@ -227,7 +227,7 @@ nav ul li:hover a {
     align-items: start;
     justify-content: start;
     flex-direction: column;
-
+    flex-wrap: wrap;
     width: 50vw;
     min-height: 80vh;
     background-color: var(--color1);
