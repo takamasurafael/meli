@@ -186,31 +186,30 @@ nav ul li:hover a {
     justify-content: start;
     flex-direction: column;
 
-    width: 34vw;
+    min-width: 50vw;
     min-height: 100vh;
     background-color: var(--color15);
     overflow: hidden;
 }
 
 #frame8 #produ #titlee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 25px;
-    padding: 1rem;
+    min-height: 10vh;
 }
 
 #frame8 #produ #produInput {
-    padding: 1rem;
     text-align: center;
-    width: 33vw;
+    width: 50vw;
+    min-height: 10vh;
 }
 
-#frame8 #produ #register,
 #frame8 #produ #clear {
-    padding: 1rem;
-    margin: 1px;
-    width: 16.5vw;
+    width: 10vw;
+    min-height: 10vh;
 }
-
-#frame8 #produ #produInput::placeholder {}
 
 #frame8 #produ #produCasos {
     display: flex;
@@ -218,8 +217,8 @@ nav ul li:hover a {
     justify-content: start;
     flex-direction: column;
 
-    width: 33vw;
-    min-height: 65vh;
+    width: 50vw;
+    min-height: 80vh;
     background-color: var(--color1);
 
     overflow-y: scroll;
@@ -227,15 +226,14 @@ nav ul li:hover a {
 }
 
 #frame8 #produ #produCasos p {
-    padding: 0.2rem;
-    margin: 1px;
     background-color: var(--color2);
     text-align: center;
-    width: 32.9vw;
+    width: 25vw;
+    height: 4vh;
 }
 
 #frame8 #frame8frame {
-    width: 33vw;
+    min-width: 50vw;
     min-height: 100vh;
 }
 
