@@ -194,3 +194,39 @@ nav11.addEventListener("click", () => {
 const nav15 = document.getElementById("nav15");
 const frame15div = document.getElementById("frame15div");
 const frame15 = document.getElementById("frame15");
+
+// reputacao
+const reputacaoLi = document.getElementById("reputacaoLi");
+const nav12 = document.getElementById("nav12");
+const frame12 = document.getElementById("frame12");
+const reputacaoinputField = document.getElementById("reputacaoinputField");
+const frame12frame = document.getElementById("frame12frame");
+const link12 = "https://internal-reputation.adminml.com/reputacao?userId=";
+
+nav12.addEventListener("click", () => {
+  hideAllFrames();
+  frame12.style.display = "flex";
+});
+
+reputacaoinputField.addEventListener("paste", (event) => {
+  event.preventDefault();
+
+  const pastedText = event.clipboardData.getData("text/plain");
+  const numericValue = pastedText.replace(/[^\d]/g, "");
+  reputacaoinputField.value = numericValue;
+
+  //atualiza o placeholder
+  reputacaoinputField.placeholder = "ID colado " + numericValue;
+
+  //atualiza o link do frame12frame
+  frame12frame.src = link12 + numericValue;
+  alert(link12 + numericValue);
+});
+
+reputacaoinputField.addEventListener("input", () => {
+  const numericValue = reputacaoinputField.value.replace(/[^\d]/g, "");
+  reputacaoinputField.value = numericValue;
+
+  numericValue = "";
+});
+// fim reputacao
