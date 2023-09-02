@@ -242,7 +242,7 @@ nav ul li:hover a {
     background-color: var(--color2);
     text-align: center;
     width: 25vw;
-    height: 4vh;
+    min-height: 4vh;
 }
 
 #frame8 #frame8frame {
