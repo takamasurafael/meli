@@ -186,7 +186,7 @@ nav ul li:hover a {
     justify-content: start;
     flex-direction: column;
 
-    flex-wrap: wrap;
+    position: relative;
 
     min-width: 50vw;
     min-height: 100vh;
