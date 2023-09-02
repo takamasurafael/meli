@@ -194,3 +194,8 @@ nav11.addEventListener("click", () => {
 const nav15 = document.getElementById("nav15");
 const frame15div = document.getElementById("frame15div");
 const frame15 = document.getElementById("frame15");
+
+const ampliar = document.getElementById("ampliar");
+ampliar.addEventListener("click", () => {
+  frame1.style.transform = "scale(.5)";
+});
