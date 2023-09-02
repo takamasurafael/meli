@@ -209,6 +209,12 @@ nav ul li:hover a {
 #frame8 #produ #clear {
     width: 10vw;
     min-height: 10vh;
+    transition: .2s;
+}
+
+#frame8 #produ #clear:hover {
+    background-color: var(--color2);
+    color: white;
 }
 
 #frame8 #produ #produCasos {
