@@ -237,6 +237,9 @@ nav ul li:hover a {
 }
 
 #frame8 #produ #produCasos p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--color2);
     text-align: center;
     width: 25vw;
