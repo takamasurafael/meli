@@ -185,7 +185,7 @@ nav ul li:hover a {
     align-items: center;
     justify-content: start;
     flex-direction: column;
-
+    position: relative;
     min-width: 50vw;
     min-height: 100vh;
     background-color: var(--color15);
@@ -207,6 +207,9 @@ nav ul li:hover a {
 }
 
 #frame8 #produ #clear {
+    position: absolute;
+    right: 0;
+    top: 0;
     width: 10vw;
     min-height: 10vh;
 }
