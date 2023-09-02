@@ -182,8 +182,8 @@ nav ul li:hover a {
 
 #frame8 #produ {
     display: flex;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     position: relative;
     min-width: 50vw;
@@ -224,7 +224,7 @@ nav ul li:hover a {
 
 #frame8 #produ #produCasos {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: start;
     flex-direction: column;
 
