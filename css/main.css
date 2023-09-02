@@ -167,7 +167,8 @@ nav ul li:hover a {
 #frame8,
 #frame9,
 #frame10,
-#frame11 {
+#frame11,
+#frame12 {
     position: relative;
     min-width: 100vw;
     max-width: 100vw;
@@ -270,18 +271,21 @@ nav ul li:hover a {
     min-height: 110vw;
 }
 
-#frame10 input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0.9rem;
-    text-align: center;
-    font-size: 1em;
-    width: 100vw;
-    z-index: 50;
+#frame10 input,
+#frame12 input,
+{
+position: absolute;
+top: 0;
+left: 0;
+padding: 0.9rem;
+text-align: center;
+font-size: 1em;
+width: 100vw;
+z-index: 50;
 }
 
-#frame10 iframe {
+#frame10 iframe,
+#frame12 iframe {
     width: 100vw;
     min-height: 100vh;
 }
