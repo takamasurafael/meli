@@ -231,9 +231,7 @@ nav ul li:hover a {
     width: 50vw;
     min-height: 80vh;
     background-color: var(--color1);
-
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #frame8 #produ #produCasos p {
