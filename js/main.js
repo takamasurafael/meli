@@ -194,17 +194,3 @@ nav11.addEventListener("click", () => {
 const nav15 = document.getElementById("nav15");
 const frame15div = document.getElementById("frame15div");
 const frame15 = document.getElementById("frame15");
-
-//testes
-
-const ampliar = document.getElementById("ampliar");
-
-ampliar.style.width = "5rem";
-ampliar.style.height = "5rem";
-ampliar.style.backgroundColor = "red";
-ampliar.style.position = "absolute";
-ampliar.style.right = "0";
-
-ampliar.addEventListener("click", () => {
-  frame1.style.transform = "scale(.5)";
-});
