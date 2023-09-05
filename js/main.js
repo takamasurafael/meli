@@ -41,7 +41,7 @@ menuBUG.addEventListener("click", () => {
   hideAllFrames();
   frameBUG.style.display = "flex";
   frameBUG.style.transform = "scale(.1)";
-  frameBUG.style.width = "350vw";
+  frameBUG.style.width = "650vw";
   frameBUG.src = link6;
 });
 
