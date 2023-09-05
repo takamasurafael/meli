@@ -258,9 +258,6 @@ nav ul li:hover a {
     min-height: 110vw;
 }
 
-#frame10 {
-    display: none;
-}
 
 #frame10 input {
     position: absolute;
