@@ -6,10 +6,10 @@ function hideAllFrames() {
   framePlaca.style.display = "none";
   frame8.style.display = "none";
   frameArvoreDiv.style.display = "none";
-
   frame10.style.display = "none";
-  inputField.style.display = "none";
 }
+
+hideAllFrames();
 
 // Vendedor - Post Compra Funcionalidades
 const seller = document.getElementById("seller");
@@ -101,7 +101,6 @@ const link10 =
 nav10.addEventListener("click", () => {
   hideAllFrames();
   frame10.style.display = "flex";
-  inputField.style.display = "flex";
 });
 
 const inputField = document.getElementById("inputField");
