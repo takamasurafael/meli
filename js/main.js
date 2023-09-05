@@ -106,7 +106,6 @@ inputField.addEventListener("paste", (event) => {
 
   // Atualiza o link do frame10frame
   frame10frame.src = link10 + numericValue;
-  alert(link10 + numericValue);
 });
 
 inputField.addEventListener("input", () => {
