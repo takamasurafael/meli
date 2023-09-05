@@ -6,10 +6,9 @@ function hideAllFrames() {
   framePlaca.style.display = "none";
   frame8.style.display = "none";
   frameArvoreDiv.style.display = "none";
+  frameArvore.style.display = "none";
   frame10.style.display = "none";
 }
-
-hideAllFrames();
 
 // Vendedor - Post Compra Funcionalidades
 const seller = document.getElementById("seller");
