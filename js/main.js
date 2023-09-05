@@ -1,14 +1,5 @@
-//pré e pós promessa
-const link1 =
-  "https://docs.google.com/presentation/d/1UmnhRuhbkqM2NirqDNGTM-gLAHqZaVmvHIi3PFPNK3Q/edit#slide=id.g13420461203_20_0";
 const link11 =
   "https://docs.google.com/spreadsheets/d/1dEEPrRR89lJcgtOOypDYZs5kCl-G90a0ywwt6nEl1PA/edit#gid=1659494052";
-//reclamação durante a entrega
-const link2 =
-  "https://docs.google.com/presentation/d/1BE1zC_Y9kjqf8vT465Dkr2sNK3bxsiHO8DNEzsZyUD8/edit?pli=1#slide=id.g133c22d4a9d_0_0";
-//reclamação pós entrega
-const link3 =
-  "https://docs.google.com/presentation/d/1NKTnSp6zs5pqHEhWR-6b86geSYDK4_dLAJRmJqPkdNs/edit#slide=id.g133c22d4a9d_0_0";
 //post compra funcionalidades vendedor
 const link4 =
   "https://docs.google.com/presentation/d/1v4feoFH7cJHis5elol5IbnrwPR1WYMM0-x3a1nh-ZE8/edit#slide=id.g13ebedf89ed_341_0";
