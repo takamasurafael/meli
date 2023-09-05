@@ -2,8 +2,8 @@ function hideAllFrames() {
   frameSeller.style.display = "none";
   frameDiferimento.style.display = "none";
   frameFSR.style.display = "none";
-  frame6.style.display = "none";
-  frame7.style.display = "none";
+  frameBUG.style.display = "none";
+  framePlaca.style.display = "none";
   frame8.style.display = "none";
   frame9div.style.display = "none";
   frame9.style.display = "none";
@@ -34,23 +34,23 @@ menuFSR.addEventListener("click", () => {
 
 // BUG
 const menuBUG = document.getElementById("menuBUG");
-const frame6 = document.getElementById("frame6");
+const frameBUG = document.getElementById("frameBUG");
 const link6 =
   "https://docs.google.com/presentation/d/1YdGGQFKiVCKZh1gKpVyIbCW_C42CWS0DvHgvEtcQihw/edit#slide=id.g22d184d4d76_495_3597";
 menuBUG.addEventListener("click", () => {
   hideAllFrames();
-  frame6.style.display = "flex";
-  frame6.src = link6;
+  frameBUG.style.display = "flex";
+  frameBUG.src = link6;
 });
 
 // Consultar Placa Veículo
-const nav7 = document.getElementById("nav7");
-const frame7 = document.getElementById("frame7");
+const placaVeiculo = document.getElementById("placaVeiculo");
+const framePlaca = document.getElementById("framePlaca");
 const link7 = "https://buscaplacas.com.br/resultado.php?ref=cpcnew";
-nav7.addEventListener("click", () => {
+placaVeiculo.addEventListener("click", () => {
   hideAllFrames();
-  frame7.style.display = "flex";
-  frame7.src = link7;
+  framePlaca.style.display = "flex";
+  framePlaca.src = link7;
 });
 
 // Outgoing

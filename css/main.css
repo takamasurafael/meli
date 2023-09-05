@@ -157,23 +157,10 @@ nav ul li:hover a {
     border-color: var(--color7);
 }
 
-#frame1,
-#frame2,
-#frame3,
-#frame4,
-#frame5,
-#frame6,
-#frame7,
-#frame8,
-#frame9,
-#frame10,
-#frame11,
-#frame12 {
+.frameFull {
     position: relative;
     min-width: 100vw;
-    max-width: 100vw;
     min-height: 100vh;
-    max-height: 100vh;
 }
 
 #frame8 {
