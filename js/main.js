@@ -43,16 +43,6 @@ menuBUG.addEventListener("click", () => {
   frameBUG.src = link6;
 });
 
-// Consultar Placa Veículo
-const placaVeiculo = document.getElementById("placaVeiculo");
-const framePlaca = document.getElementById("framePlaca");
-const link7 = "https://buscaplacas.com.br/resultado.php?ref=cpcnew";
-placaVeiculo.addEventListener("click", () => {
-  hideAllFrames();
-  framePlaca.style.display = "flex";
-  framePlaca.src = link7;
-});
-
 // Outgoing
 const nav8 = document.getElementById("nav8");
 const frame8 = document.getElementById("frame8");
