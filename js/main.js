@@ -21,9 +21,6 @@ const link9 =
 const link10 =
   "https://envios.mercadolivre.com.br/logistics/monitoring-distribution/detail/";
 
-const nav1 = document.getElementById("nav1");
-const nav2 = document.getElementById("nav2");
-const nav3 = document.getElementById("nav3");
 const nav4 = document.getElementById("nav4");
 const nav5 = document.getElementById("nav5");
 const nav6 = document.getElementById("nav6");
@@ -32,9 +29,6 @@ const nav8 = document.getElementById("nav8");
 const nav9 = document.getElementById("nav9");
 const nav11 = document.getElementById("nav11");
 
-const frame1 = document.getElementById("frame1");
-const frame2 = document.getElementById("frame2");
-const frame3 = document.getElementById("frame3");
 const frame4 = document.getElementById("frame4");
 const frame5 = document.getElementById("frame5");
 const frame6 = document.getElementById("frame6");
@@ -44,10 +38,7 @@ const frame9 = document.getElementById("frame9");
 const frame11 = document.getElementById("frame11");
 
 function hideAllFrames() {
-  frame1.style.display = "none";
   frame11.style.display = "none";
-  frame2.style.display = "none";
-  frame3.style.display = "none";
   frame4.style.display = "none";
   frame5.style.display = "none";
   frame6.style.display = "none";
@@ -63,24 +54,6 @@ function hideAllFrames() {
   frame15.style.display = "none";
   // testes fim
 }
-
-nav1.addEventListener("click", () => {
-  hideAllFrames();
-  frame1.style.display = "flex";
-  frame1.src = link1;
-});
-
-nav2.addEventListener("click", () => {
-  hideAllFrames();
-  frame2.style.display = "flex";
-  frame2.src = link2;
-});
-
-nav3.addEventListener("click", () => {
-  hideAllFrames();
-  frame3.style.display = "flex";
-  frame3.src = link3;
-});
 
 nav4.addEventListener("click", () => {
   hideAllFrames();
