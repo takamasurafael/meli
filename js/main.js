@@ -101,11 +101,10 @@ inputField.addEventListener("paste", (event) => {
   const numericValue = pastedText.replace(/[^\d]/g, ""); // Remove non-numeric characters
   inputField.value = numericValue;
 
-  // Atualiza o placeholder
   inputField.placeholder = "Número colado: " + numericValue;
 
-  // Atualiza o link do frame10frame
   frame10frame.src = link10 + numericValue;
+  alert(link10 + numericValue);
 });
 
 inputField.addEventListener("input", () => {
