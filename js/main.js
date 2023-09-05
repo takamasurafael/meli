@@ -1,19 +1,13 @@
 function hideAllFrames() {
-  frame11.style.display = "none";
+  frameDiferimento.style.display = "none";
   frame4.style.display = "none";
   frame5.style.display = "none";
   frame6.style.display = "none";
   frame7.style.display = "none";
   frame8.style.display = "none";
-  // testes
   frame9div.style.display = "none";
   frame9.style.display = "none";
-  //testes
   frame10.style.display = "none";
-  // testes
-  frame15div.style.display = "none";
-  frame15.style.display = "none";
-  // testes fim
 }
 
 // Vendedor - Post Compra Funcionalidades
@@ -132,16 +126,16 @@ inputField.addEventListener("input", () => {
   numericValue = "";
 });
 
-const nav11 = document.getElementById("nav11");
-const frame11 = document.getElementById("frame11");
+const diferimento = document.getElementById("diferimento");
+const frameDiferimento = document.getElementById("frameDiferimento");
 const link11 =
   "https://docs.google.com/spreadsheets/d/1dEEPrRR89lJcgtOOypDYZs5kCl-G90a0ywwt6nEl1PA/edit#gid=1659494052";
-nav11.addEventListener("click", () => {
+diferimento.addEventListener("click", () => {
   hideAllFrames();
-  frame11.style.display = "flex";
-  frame11.src = link11;
+  frameDiferimento.style.display = "flex";
+  frameDiferimento.src = link11;
   setTimeout(() => {
-    frame11.style.position = "absolute";
-    frame11.style.top = "-20vh";
+    frameDiferimento.style.position = "absolute";
+    frameDiferimento.style.top = "-20vh";
   }, 5000);
 });
