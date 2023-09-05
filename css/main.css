@@ -258,10 +258,15 @@ nav ul li:hover a {
     min-height: 110vw;
 }
 
+#frame10 {
+    display: none;
+}
+
 #frame10 input {
     position: absolute;
     top: 0;
     left: 0;
+
     padding: 0.9rem;
     text-align: center;
     font-size: 1em;
