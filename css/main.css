@@ -92,7 +92,7 @@ nav ul #nav8 {
     border-color: var(--color16);
 }
 
-nav ul #nav9 {
+nav ul #arvore {
     background-color: var(--color13);
     border-color: var(--color13);
 }
@@ -249,7 +249,7 @@ nav ul li:hover a {
 }
 
 /* Arvore de transferencia */
-#frame9 {
+#frameArvore {
     position: absolute;
     left: 0vw;
     top: 0vh;
@@ -275,12 +275,12 @@ nav ul li:hover a {
 }
 
 /* TESTES */
-#frame9div {
+#frameArvoreDiv {
     min-width: 100vw;
     min-height: 100vh;
 }
 
-#frame9 {
+#frameArvore {
     min-width: 115vw;
     min-height: 115vh;
     transform: scale(.9);

@@ -5,8 +5,8 @@ function hideAllFrames() {
   frameBUG.style.display = "none";
   framePlaca.style.display = "none";
   frame8.style.display = "none";
-  frame9div.style.display = "none";
-  frame9.style.display = "none";
+  frameArvoreDiv.style.display = "none";
+  frameArvore.style.display = "none";
   frame10.style.display = "none";
 }
 
@@ -67,27 +67,27 @@ nav8.addEventListener("click", () => {
 });
 
 // Árvore Transferências
-const nav9 = document.getElementById("nav9");
-const frame9 = document.getElementById("frame9");
+const arvore = document.getElementById("arvore");
+const frameArvore = document.getElementById("frameArvore");
 const link9 =
   "https://docs.google.com/spreadsheets/d/1gZUzmgcIbUvftx42l_Ws_6zxzxbv1LA1ZN19fwPaEtY/edit#gid=1208426721";
-nav9.addEventListener("click", () => {
+arvore.addEventListener("click", () => {
   hideAllFrames();
-  frame9.style.display = "flex";
-  frame9.src = link9;
+  frameArvore.style.display = "flex";
+  frameArvore.src = link9;
 });
 
-nav9.addEventListener("click", () => {
+arvore.addEventListener("click", () => {
   hideAllFrames();
-  frame9div.style.display = "flex";
-  frame9.style.display = "flex";
+  frameArvoreDiv.style.display = "flex";
+  frameArvore.style.display = "flex";
 
-  frame9.src = link9;
+  frameArvore.src = link9;
 
   setTimeout(() => {
-    frame9.style.position = "absolute";
-    frame9.style.top = "-6vh";
-    frame9.style.left = "-0vw";
+    frameArvore.style.position = "absolute";
+    frameArvore.style.top = "-6vh";
+    frameArvore.style.left = "-0vw";
   }, 3000);
 });
 
