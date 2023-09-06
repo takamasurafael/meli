@@ -218,6 +218,7 @@ nav ul li:hover a {
     flex-wrap: wrap;
     width: 50vw;
     min-height: 80vh;
+    max-height: 80vh;
     background-color: var(--color1);
     overflow: hidden;
 }
