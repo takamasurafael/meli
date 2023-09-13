@@ -180,7 +180,7 @@ nav ul li:hover a {
     position: relative;
     min-width: 50vw;
     min-height: 100vh;
-    background-color: var(--color15);
+    background-color: var(--color17);
     overflow: hidden;
 }
 
