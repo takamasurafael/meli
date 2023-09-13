@@ -165,11 +165,13 @@ nav ul li:hover a {
 }
 
 #frame8 {
-    display: flex;
-    flex-direction: row;
+    position: relative;
+    min-width: 100vw;
 }
 
 #frame8 #produ {
+    position: absolute;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,23 +223,28 @@ nav ul li:hover a {
     min-height: 80vh;
     max-height: 80vh;
     background-color: var(--color1);
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 #frame8 #produ #produCasos p {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 15px;
+    font-size: 12px;
     background-color: var(--color2);
     text-align: center;
-    width: 25vw;
+    width: 15vw;
     min-height: 3.2vh;
 }
 
-#frame8 #frame8frame {
-    min-width: 50vw;
-    min-height: 100vh;
+#frame8 iframe {
+    min-width: 55.5vw;
+    min-height: 110.9vh;
+    transform: scale(0.9);
+    position: absolute;
+    top: -5.5vh;
+    right: -2.7vw;
 }
 
 #frame8 #frame8extra {
