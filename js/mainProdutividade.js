@@ -11,6 +11,7 @@ produInput.addEventListener("paste", (e) => {
   const hora = tempo.getHours();
   const minuto = tempo.getMinutes();
   const horaFormatada = `${hora}:${minuto}`;
+  const horaFormatada2 = `${tempo.getHours()}:${tempo.getMinutes()}:${tempo.getSeconds()}`;
 
   const clipboardData = e.clipboardData || window.clipboardData;
   const pastedData = clipboardData.getData("text");
@@ -27,7 +28,7 @@ produInput.addEventListener("paste", (e) => {
     if (!isDuplicate) {
       const caseData = {
         id: sequenceNumber,
-        content: `${pastedData} - Caso #${sequenceNumber} - ${horaFormatada}`,
+        content: `${pastedData} - Caso #${sequenceNumber} - ${horaFormatada2}`,
       };
 
       casesData.push(caseData);
@@ -36,10 +37,10 @@ produInput.addEventListener("paste", (e) => {
       saveCasesToLocalStorage();
       renderCases();
     } else {
-      alert("Os dados já foram colados antes e são duplicados.");
+      alert("Esse caso já está na lista");
     }
   } else {
-    alert("Por favor, cole um número exatamente com 9 caracteres.");
+    alert("Cole somente casos com 9 dígitos");
   }
 });
 
