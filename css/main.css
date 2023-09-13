@@ -167,6 +167,7 @@ nav ul li:hover a {
 #frame8 {
     position: relative;
     min-width: 100vw;
+    z-index: 900;
 }
 
 #frame8 #produ {
@@ -222,7 +223,7 @@ nav ul li:hover a {
     width: 50vw;
     min-height: 80vh;
     max-height: 80vh;
-    background-color: var(--color1);
+    background-color: var(--color3);
     overflow-y: hidden;
     overflow-x: scroll;
 }
@@ -281,7 +282,7 @@ nav ul li:hover a {
 /* Sauron */
 #frame10 {
     position: relative;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     min-width: 100vw;

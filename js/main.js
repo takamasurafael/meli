@@ -55,7 +55,6 @@ nav8.addEventListener("click", () => {
   hideAllFrames();
   frame8.style.display = "flex";
   frame8frame.src = link8;
-  frame8extra.src = link8extra;
 });
 
 // Árvore Transferências
@@ -106,7 +105,7 @@ inputField.addEventListener("paste", (event) => {
   inputField.placeholder = "Número colado: " + numericValue;
 
   frame10frame.src = link10 + numericValue;
-  alert(link10 + numericValue);
+  inputField.value = "Link da rota pesquisada: " + link10 + numericValue;
 });
 
 inputField.addEventListener("input", () => {
