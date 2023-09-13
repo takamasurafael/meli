@@ -3,7 +3,6 @@ function hideAllFrames() {
   frameDiferimento.style.display = "none";
   frameFSR.style.display = "none";
   frameBUG.style.display = "none";
-  framePlaca.style.display = "none";
   frame8.style.display = "none";
   frameArvoreDiv.style.display = "none";
   frameArvore.style.display = "none";

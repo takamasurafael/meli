@@ -6,7 +6,6 @@
     <title>Fluxos PPT</title>
 
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/mainProdutividade.css" />
 
     <script src="./js/main.js" defer></script>
     <script src="./js/mainProdutividade.js" defer></script>
@@ -14,6 +13,18 @@
   <body>
     <nav>
       <ul>
+        <li id="outgoingLi">
+          <a id="nav8" href="#frame8">Outgoing</a><span>Outgoing</span>
+        </li>
+        <li id="arvoreLi">
+          <a id="arvore" href="#frameArvore">Árvore De Transferências</a
+          ><span>Árvore</span>
+        </li>
+        <li id="sauronLi">
+          <a id="nav10" href="#frame10">Sauron</a
+          ><span id="sauronSpan">Sauron</span>
+        </li>
+
         <li>
           <a id="seller" href="#frameSeller">Vendedor - Post Compra</a
           ><span>Vendedor</span>
@@ -27,30 +38,14 @@
           <span>FSR</span>
         </li>
         <li><a id="menuBUG" href="#frameBUG">BUG</a><span>BUG</span></li>
-
-        <li id="outgoingLi">
-          <a id="nav8" href="#frame8">Outgoing</a><span>Outgoing</span>
-        </li>
-        <li id="arvoreLi">
-          <a id="arvore" href="#frameArvore">Árvore De Transferências</a
-          ><span>Árvore</span>
-        </li>
-        <li id="sauronLi">
-          <a id="nav10" href="#frame10">Sauron</a
-          ><span id="sauronSpan">Sauron</span>
-        </li>
       </ul>
     </nav>
 
-    <iframe id="frameSeller" class="frameFull"></iframe>
-    <iframe id="frameDiferimento" class="frameFull"></iframe>
-    <iframe id="frameFSR" class="frameFull"></iframe>
-    <iframe id="frameBUG" class="frameFull"></iframe>
-    <iframe id="framePlaca" class="frameFull"></iframe>
-
     <div id="frame8">
       <div id="produ">
-        <p id="titlee">Produtividade</p>
+        <header>
+          <h1>Produtividade</h1>
+        </header>
         <input type="text" id="produInput" placeholder="Cole o caso" />
         <input type="button" id="clear" value="Excluir tudo" />
 
@@ -59,6 +54,12 @@
 
       <iframe id="frame8frame"></iframe>
     </div>
+
+    <iframe id="frameSeller" class="frameFull"></iframe>
+    <iframe id="frameDiferimento" class="frameFull"></iframe>
+    <iframe id="frameFSR" class="frameFull"></iframe>
+    <iframe id="frameBUG" class="frameFull"></iframe>
+    <iframe id="framePlaca" class="frameFull"></iframe>
 
     <div id="frameArvoreDiv">
       <iframe id="frameArvore"></iframe>
