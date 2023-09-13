@@ -267,22 +267,6 @@ nav ul li:hover a {
     min-height: 110vw;
 }
 
-#frame10 input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0.9rem;
-    text-align: center;
-    font-size: 1em;
-    width: 100vw;
-    z-index: 50;
-}
-
-#frame10 iframe {
-    width: 100vw;
-    min-height: 100vh;
-}
-
 #frameArvoreDiv {
     min-width: 100vw;
     min-height: 100vh;
@@ -293,3 +277,35 @@ nav ul li:hover a {
     min-height: 115vh;
     transform: scale(0.9);
 }
+
+/* Sauron */
+#frame10 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+#frame10 input {
+    position: absolute;
+    top: 0vh;
+    text-align: center;
+    font-size: 1em;
+    min-width: 100vw;
+    min-height: 10vh;
+    z-index: 50;
+}
+
+#frame10 iframe {
+    position: absolute;
+    top: -12.5vh;
+    min-width: 125vw;
+    min-height: 125vh;
+    transform: scale(0.8);
+    z-index: 49;
+}
+
+/* Fim Sauron */
