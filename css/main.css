@@ -108,7 +108,7 @@ nav:hover ul li {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 8vw;
+    width: 7vw;
     min-height: 12vh;
     background-color: var(--color1);
     color: var(--color6);
@@ -132,13 +132,16 @@ nav:hover ul #sauronLi {
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: var(--color6);
+    display: none;
 }
 
 nav ul li:hover {
-    width: 15vw;
+    width: 23vw;
     background-color: var(--color1);
+}
+
+nav ul li:hover span {
+    display: none;
 }
 
 nav ul li:hover a {
