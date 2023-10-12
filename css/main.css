@@ -131,17 +131,11 @@ nav:hover ul #sauronLi {
     border-color: var(--color11);
 }
 
-nav ul li a {
-    display: none;
-}
+nav ul li a {}
 
 nav ul li:hover {
     width: 23vw;
     background-color: var(--color1);
-}
-
-nav ul li:hover span {
-    display: none;
 }
 
 nav ul li:hover a {
